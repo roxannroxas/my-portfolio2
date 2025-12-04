@@ -13,7 +13,7 @@ body {
   right: 25px;
   transform: translateY(-50%);
   z-index: 2000;
-  background: linear-gradient(135deg, #a970ff, #ff69b4);
+  background: linear-gradient(135deg, #ffffff, #ffffff);
   color: #fff;
   border: none;
   font-size: 1.8rem;
@@ -21,13 +21,13 @@ body {
   width: 60px;
   height: 60px;
   cursor: pointer;
-  box-shadow: 0 0 20px rgba(169, 112, 255, 0.6);
+  box-shadow: 0 0 20px rgba(77, 77, 77, 0.6);
   transition: all 0.2s ease;
 }
 
 .api-toggle-btn.active {
-  background: linear-gradient(135deg, #ff4d4d, #ff69b4);
-  box-shadow: 0 0 25px rgba(255, 77, 77, 0.7);
+  background: linear-gradient(135deg, #fffdfd, #000000);
+  box-shadow: 0 0 25px rgba(70, 70, 70, 0.7);
 }
 
 
@@ -37,13 +37,13 @@ body {
   right: -400px;
   width: 350px;
   height: 100vh;
-  background: linear-gradient(135deg, #000000, #2d0b45);
+  background: linear-gradient(135deg, #000000, #000000);
   color: #fff;
   padding: 30px 25px;
-  box-shadow: -6px 0 20px rgba(169, 112, 255, 0.25);
+  box-shadow: -6px 0 20px rgba(255, 255, 255, 0.25);
   z-index: 1500;
   overflow-y: auto;
-  border-left: 2px solid rgba(255, 105, 180, 0.4);
+  border-left: 2px solid rgba(255, 255, 255, 0.4);
   transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
@@ -53,11 +53,11 @@ body {
 
 
 .api-sidebar h2 {
-  color: #a970ff;
+  color: #fcfcfc;
   text-align: center;
   margin-bottom: 25px;
   font-size: 1.8rem;
-  text-shadow: 0 0 10px rgba(169, 112, 255, 0.8);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 
@@ -71,12 +71,12 @@ body {
   background: rgba(25, 25, 25, 0.75);
   border-radius: 15px;
   padding: 20px;
-  border: 1px solid rgba(169, 112, 255, 0.2);
+  border: 1px solid rgba(82, 82, 82, 0.2);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .api-section h3 {
-  color: #ff69b4;
+  color: #a09f9f;
   margin-bottom: 10px;
   font-size: 1.3rem;
 }
@@ -87,7 +87,7 @@ body {
 }
 
 .api-section button {
-  background: linear-gradient(135deg, #a970ff, #ff69b4);
+  background: linear-gradient(135deg, #3d3d3d, #b9b8b9);
   color: #fff;
   border: none;
   padding: 8px 15px;
@@ -99,7 +99,7 @@ body {
 
 .api-section button:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 

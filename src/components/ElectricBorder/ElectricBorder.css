@@ -2,7 +2,7 @@
 
 .electric-border {
 
-  --electric-border-color: #bd73ff; 
+  --electric-border-color: #f8f8f8; 
   --eb-border-width: 2px;
   
 
@@ -36,6 +36,7 @@
   height: 100%;
   border-radius: inherit;
   box-sizing: border-box;
+  
 }
 
 .eb-stroke {
@@ -48,7 +49,7 @@
   pointer-events: none;
 }
 
-hes the stroke position
+
 */
 .eb-glow {
   position: absolute;

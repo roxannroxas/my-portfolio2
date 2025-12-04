@@ -75,12 +75,12 @@ const AboutMe = () => {
               <ScrollStack>
                 {education.map((edu, idx) => (
                   <ScrollStackItem key={idx}>
-                    <h2 style={{ color: "#a970ff", marginBottom: "0.5rem" }}>{edu.school}</h2>
+                    <h2 style={{ color: "#ffffffff", marginBottom: "0.5rem" }}>{edu.school}</h2>
                     <p style={{ marginBottom: "1rem" }}>{edu.detail}</p>
                     {edu.awards && (
                       <ul style={{ paddingLeft: "1rem", marginTop: "0.5rem" }}>
                         <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                           <FaCheckCircle color="#a970ff" /> {edu.awards}
+                           <FaCheckCircle color="#ffffffff" /> {edu.awards}
                         </li>
                       </ul>
                     )}
@@ -98,7 +98,7 @@ const AboutMe = () => {
                 {achievements.map((ach, idx) => (
                   <ScrollStackItem key={idx}>
                      <div style={{ display: "flex", alignItems: "center", gap: "10px", height: "100%" }}>
-                        <FaCheckCircle size={24} color="#a970ff" /> 
+                        <FaCheckCircle size={24} color="#ffffffff" /> 
                         <span style={{ fontSize: "1.2rem", fontWeight: "bold" }}>{ach.title}</span>
                      </div>
                   </ScrollStackItem>

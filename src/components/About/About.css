@@ -37,10 +37,12 @@ background: transparent;
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #a970ff;
+  color: #ffffff !important; 
+  text-shadow: black !important; 
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
   margin-bottom: 1.5rem;
 }
-
 .about-box p {
   font-size: 1.2rem;
   color: #d1d1d1;
@@ -54,8 +56,8 @@ background: transparent;
   padding: 12px 28px;
   font-size: 1rem;
   font-weight: 600;
-  color: #fff;
-  background: linear-gradient(135deg, #7f00ff, #a970ff);
+  color: #000000;
+  background: linear-gradient(135deg, #ffffff, #ffffff);
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -63,7 +65,7 @@ background: transparent;
 }
 
 .projects-btn:hover {
-  background: linear-gradient(135deg, #a970ff, #7f00ff);
+  background: linear-gradient(135deg, #fafafa, #ffffff);
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }

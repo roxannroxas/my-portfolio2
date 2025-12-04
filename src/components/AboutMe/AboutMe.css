@@ -23,7 +23,7 @@
 .aboutme-left img {
   width: 100%;
   border-radius: 50%;
-  border: 4px solid #a970ff;
+  border: 4px solid #000000;
   object-fit: cover;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -43,7 +43,7 @@
 
 .aboutme-right h2 {
   font-size: 2rem;
-  color: #a970ff;
+  color: #020202;
   margin-bottom: 0.5rem;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .info-icon {
-  color: #a970ff;
+  color: #ffffff;
   font-size: 1.3rem;
 }
 
@@ -97,7 +97,7 @@
 .scrollstack-column > h3,
 .scrollstack-column > h2 {
   font-size: 2rem;
-  color: #a970ff;
+  color: #000000;
   margin-top: -8rem; 
   padding-left: 0.5rem;
   display: flex;
@@ -114,7 +114,7 @@
 }
 
 .scrollstack-item {
-  background: linear-gradient(135deg, #1a1a1a, #2d0b45);
+  background: linear-gradient(135deg, #000000, #2d0b45);
   border-radius: 1.5rem;
   padding: 2.5rem 2rem; 
   width: 100%;
@@ -143,14 +143,14 @@
   left: 0;
   right: 0;
   height: 6px; 
-  background: linear-gradient(90deg, #a970ff, #ff69b4);
+  background: linear-gradient(90deg, #ffffff, #8b8b8b);
 }
 
 .scrollstack-item h2 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem; 
   margin-top: 0.5rem;
-  color: #a970ff;
+  color: #000000;
   line-height: 1.2;
 }
 

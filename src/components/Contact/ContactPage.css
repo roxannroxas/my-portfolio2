@@ -22,7 +22,7 @@
 
 .contact-title {
   font-size: 2.8rem;
-  color: #a970ff;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -50,17 +50,17 @@
 
 .contact-list li:hover {
   transform: translateY(-3px);
-  color: #a970ff;
+  color: #ffffff;
 }
 
 .contact-icon {
   font-size: 1.5rem;
-  color: #ff6ec7;
+  color: #ffffff;
   transition: color 0.3s ease;
 }
 
 .contact-list li:hover .contact-icon {
-  color: #a970ff;
+  color: #444444;
 }
 
 .contact-list a {
@@ -70,7 +70,7 @@
 
 .contact-list a:hover {
   text-decoration: underline;
-  color: #a970ff;
+  color: #ffffff;
 }
 
 
@@ -81,7 +81,7 @@
 }
 
 .gmail-icon {
-  color: #ff6ec7;
+  color: #f8f8f8;
   transition: transform 0.2s ease;
 }
 
@@ -93,7 +93,7 @@
   position: absolute;
   top: -6px;
   right: -6px;
-  background-color: #a970ff;
+  background-color: #080808;
   color: white;
   border-radius: 50%;
   padding: 3px 6px;

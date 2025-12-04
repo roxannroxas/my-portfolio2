@@ -53,26 +53,26 @@ function createCardTexture(gl, { title, tech, description }) {
   const ctx = canvas.getContext('2d');
 
    const gradient = ctx.createLinearGradient(0, 0, 0, height);
-  gradient.addColorStop(0, '#d653f780'); 
+  gradient.addColorStop(0, '#00000080'); 
   gradient.addColorStop(1, '#05050580'); 
   ctx.fillStyle = gradient;
 
   roundRect(ctx, 0, 0, width, height, { tl: 0, tr: 0, bl: 40, br: 40 });
 
 
-  ctx.fillStyle = '#e018faff';
+  ctx.fillStyle = '#ffffffff';
   ctx.textAlign = 'center';
-  ctx.font = 'bold 60px Figtree, sans-serif'; 
+  ctx.font = 'bold 50px Figtree, sans-serif'; 
   ctx.fillText(title, width / 2, 110);
 
   
-  ctx.fillStyle = '#FF3366'; 
+  ctx.fillStyle = '#616060ff'; 
   ctx.font = 'bold 40px Figtree, sans-serif';
   ctx.fillText(tech, width / 2, 190);
 
 
   ctx.fillStyle = '#ffffffff';
-  ctx.font = '50px Figtree, sans-serif';
+  ctx.font = '40px Figtree, sans-serif';
   wrapText(ctx, description, width / 2, 280, width - 100, 45);
 
   const texture = new Texture(gl, { generateMipmaps: false });

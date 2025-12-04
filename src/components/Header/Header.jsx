@@ -73,8 +73,8 @@ const Header = () => {
 
   <div className="hero-blob-bg">
     <MetaBalls
-      color="#bd73ff"     
-      cursorBallColor="#bd73ff"
+      color="#333333ff"     
+      cursorBallColor="#363636ff"
       cursorBallSize={2}
   ballCount={15}
   animationSize={30}

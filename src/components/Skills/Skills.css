@@ -14,31 +14,41 @@ background: transparent;
 .section-title {
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #d8b4fe;
+  color: #ffffff !important; 
   text-shadow: 0 0 10px rgba(216, 180, 254, 0.5);
   font-weight: bold;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Slightly wider cards */
   gap: 2rem;
   width: 100%;
-  max-width: 900px;
+  max-width: 1100px;
   justify-items: center;
 }
 
+/* 2. The Wrapper - Remove any 'wavy' borders here */
 .skill-card-wrapper {
+  width: 100%;
   height: 100%;
-  border-radius: 12px;
+  padding: 0;
+  background: transparent !important; /* Removes jagged background */
+  box-shadow: none !important;        /* Removes jagged shadows */
+  border: none !important;            /* Removes jagged borders */
 }
 
 
 .skill-card-inner {
 
-  background-color: #0f0518; 
-  padding: 1.5rem 1rem;
-  border-radius: 12px;
+ /* MATCHING THE CONTACT CARD COLOR (Dark Grey/Black) */
+  background-color: #111111 !important; 
+  
+  /* Smooth Rounded Corners */
+  border-radius: 16px !important;
+  
+  /* Clean, subtle border (optional, matching the contact style) */
+  border: 1px solid #333333 !important; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,21 +57,29 @@ background: transparent;
   width: 100%;
   box-sizing: border-box;
 }
-
+/* 4. Hover Effect - Lift and Glow White */
+.skill-card-wrapper:hover .skill-card-inner {
+  transform: translateY(-8px);
+  border-color: #ffffff !important; /* White border on hover */
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+  background-color: #000000 !important; /* Slightly darker on hover */
+}
 .skill-icon {
   font-size: 3rem;
-  color: #e879f9;
+  color: #ffffff;
   margin-bottom: 1rem;
   transition: transform 0.3s ease;
 }
 
+/* Hovering the card scales the icon */
 .skill-card-wrapper:hover .skill-icon {
   transform: scale(1.1);
+  /* If you want the icon to turn PINK on hover like the contact cards: */
+  /* color: #ff6ec7; */ 
 }
-
 .skill-card-inner h3 {
   font-size: 1.25rem;
-  color: #a855f7;
+  color: #fafafa;
   margin-bottom: 1rem;
 }
 
@@ -72,7 +90,7 @@ background: transparent;
 }
 
 .skill-card-inner li {
-  color: #e5e5e5;
+  color: #838383;
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
   font-weight: 300;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Projects.css";
 import CircularGallery from "../CircularGallery/CircularGallery";
-import { supabase } from "../supabaseClient"; // Import Supabase client
+import { supabase } from "../supabaseClient"; 
 
 const Projects = () => {
   const [galleryItems, setGalleryItems] = useState([]);
@@ -26,7 +26,7 @@ const Projects = () => {
           title: p.title,
           tech: p.tech,
           description: p.description,
-          // This will now contain the link to the uploaded .jpg/.png
+  
           image: p.image_url 
         }));
 
@@ -41,7 +41,7 @@ const Projects = () => {
 
   return (
     <div className="projects-section">
-      <h2 className="projects-title" style={{ position: "absolute", top: "70px", width: "100%", textAlign: "center", zIndex: 10, fontFamily: "Figtree, sans-serif", fontSize: "3rem", fontWeight: "700", letterSpacing: "-3px", color: "#9F7AEA", textShadow: `0px 0px 20px rgba(160, 100, 255, 0.6)` }}>
+      <h2 className="projects-title" style={{ position: "absolute", top: "70px", width: "100%", textAlign: "center", zIndex: 10, fontFamily: "Figtree, sans-serif", fontSize: "3rem", fontWeight: "700", letterSpacing: "-3px", color: "#ffffffff", textShadow: `0px 0px 20px rgba(22, 22, 22, 0.6)` }}>
         My Projects
       </h2>
 

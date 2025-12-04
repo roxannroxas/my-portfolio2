@@ -29,7 +29,7 @@ const getIconForCategory = (categoryName) => {
 };
 
 const SkillCard = ({ category, skills }) => (
-  <ElectricBorder color="#bd73ff" thickness={2} className="skill-card-wrapper" style={{ borderRadius: "12px" }}>
+  <ElectricBorder color="#ffffffff" thickness={2} className="skill-card-wrapper" style={{ borderRadius: "12px" }}>
     <div className="skill-card-inner">
 
       <div className="skill-icon">
