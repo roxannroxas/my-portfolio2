@@ -97,7 +97,7 @@ void main() {
 
 const MetaBalls = ({
   className = '',
-  color = '#ffffff',
+  color = '#000000ff',
   speed = 0.3,
   enableMouseInteraction = true,
   hoverSmoothness = 0.05,
@@ -105,7 +105,7 @@ const MetaBalls = ({
   ballCount = 20,
   clumpFactor = 1,
   cursorBallSize = 5,
-  cursorBallColor = '#ffffff',
+  cursorBallColor = '#000000ff',
   enableTransparency = true
 }) => {
   const containerRef = useRef(null);
